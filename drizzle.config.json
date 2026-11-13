@@ -1,0 +1,10 @@
+{
+  "schema": "./src/db/schema.ts",
+  "out": "./src/db/migrations",
+  "dialect": "postgresql",
+  "dbCredentials": {
+    "url": "postgresql://postgres:postgres@localhost:5432/lms_edudin"
+  },
+  "verbose": true,
+  "strict": true
+}
